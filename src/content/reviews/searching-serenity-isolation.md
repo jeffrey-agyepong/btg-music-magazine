@@ -3,7 +3,7 @@ title: "Review: Searching Serenity – Isolation [EP]"
 description: Deathcore
 author: Jeffrey A
 date: 2023-06-08T15:26:46.705Z
-image: src/assets/images/blog/isolation.webp
+image: https://ik.imagekit.io/boxhuwbys/isolation.webp?updatedAt=1728787841477
 imageAlt: Searching Serenity – Isolation [EP]
 tags:
   - review
