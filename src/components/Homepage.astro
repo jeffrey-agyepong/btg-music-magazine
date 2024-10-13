@@ -1,83 +1,176 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+import { formatDate } from "@libs/utils.js";
+const posts = await getCollection("reviews");
+posts.sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
+---
+
 <!-- ============================================ -->
 <!--                    Blog                      -->
 <!-- ============================================ -->
-
-<section id="blog-1289">
+<div id="banner-310">
     <div class="cs-container">
-        <div class="cs-content">
-            <div class="cs-flex-group">
-                <span class="cs-topper">Blog</span>
-                <h2 class="cs-title">Our Latest Construction Insights and Trends</h2>
-            </div>
-            <p class="cs-text">
-                Stay up-to-date with the latest news and updates from our construction company with our "Building a Better Future" news section. From project announcements to industry insights, we'll keep you informed on everything that's happening in the world of construction.
-            </p>
-        </div>      
+        <h1 class="cs-int-title">Christian Metal Music Magazine</h1>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/boxhuwbys/btg-header-image.webp?updatedAt=1728791102965">
+        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/boxhuwbys/btg-header-image.webp?updatedAt=1728791102965">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="https://ik.imagekit.io/boxhuwbys/btg-header-image.webp?updatedAt=1728791102965" alt="library" width="1920" height="375">
+    </picture>
+</div>
+                                
+<section id="blog-1289">
+    <div class="cs-container">     
         <ul class="cs-card-group">
-            <li class="cs-item cs-highlight">
-                <a href="" class="cs-link">
+            {posts.length === 0 && <h1>No Recent Posts</h1>}
+            {
+              posts.length >= 1 && posts.map((post, index) => (
+                <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
+                  <a href={post.slug} class="cs-link">
                     <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building9.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building9.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building9.jpg" alt="building" width="270" height="200">
+                      {/* Mobile Image */}
+                      <source media="(max-width: 600px)" srcSet={post.data.image} />
+                      {/* Tablet and above Image */}
+                      <source media="(min-width: 601px)" srcSet={post.data.image} />
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        src={post.data.image}
+                        alt={post.data.imageAlt}
+                        width="270"
+                        height="200"
+                        class="rounded"
+                      />
                     </picture>
                     <div class="cs-flex">
-                        <span class="cs-date">October 30, 2023</span>
-                        <h3 class="cs-h3">Constructing Dreams: Insights and Inspiration for Your Next Construction Project</h3>
-                        <p class="cs-item-text">
-                            Whether you're a homeowner looking to remodel your kitchen or a commercial developer planning a new project, we've got you covered. Our team of experts shares their knowledge and experience to help you make informed decisions and achieve your goals.
-                        </p>
+                      <span class="cs-date">{formatDate(post.data.date)}</span>
+                      <h3 class="cs-h3">{post.data.title}</h3>
+                      <p class="cs-item-text">
+                        {post.data.description}
+                      </p>
                     </div>
-                </a>
-            </li>
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building10.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building10.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building10.jpg" alt="building" width="270" height="200">
-                    </picture>
-                    <span class="cs-date">October 30, 2023</span>
-                    <h3 class="cs-h3">Building Strong Foundations: Expert Insights For the Construction Industry</h3>
-                </a>
-            </li>
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building11.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building11.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building11.jpg" alt="building" width="270" height="200">
-                    </picture>
-                    <span class="cs-date">October 30, 2023</span>
-                    <h3 class="cs-h3">Construction Chronicles: Stories of Creativity, Innovation, and Success in the Industry</h3>
-                </a>
-            </li>
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building12.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building12.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building12.jpg" alt="building" width="270" height="200">
-                    </picture>
-                    <span class="cs-date">October 30, 2023</span>
-                    <h3 class="cs-h3">Construction Connection: Building Strong Relationships in the Construction Industry</h3>
-                </a>
-            </li>
-        </ul>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          
     </div>
 </section>
 <style>
 /*-- -------------------------- -->
-<---           Blog             -->
+<---          Banner            -->
 <--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #banner-310 {
+        /* 144px - 252px */
+        padding-top: clamp(9rem, 25vw, 15.75rem);
+        /* 80px - 140px */
+        padding-bottom: clamp(5rem, 13vw, 8.75rem);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cs-int-title {
+            /* 39px - 49px */
+            font-size: clamp(2.4375rem, 4.5vw, 3.0625rem);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: center;
+            max-width: (700/16rem);
+            margin: 0 auto (12/16rem);
+            color: var(--bodyTextColorWhite);
+            position: relative;
+        }
+
+        .cs-link {
+            /* 14px - 16px */
+            font-size: clamp(0.875rem, 1.5vw, 1rem);
+            line-height: 1.2em;
+            text-decoration: none;
+            color: var(--bodyTextColorWhite);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:last-of-type {
+                /* remove the chevron on the last list item */
+                &::after {
+                    display: none;
+                }
+            }
+
+            &:after {
+                /* chevron - added as pseudo to make adding and removing them easier */
+                content: "";
+                width: (7/16rem);
+                height: (12/16rem);
+                margin-left: (12/16rem);
+                margin-right: (12/16rem);
+                background: url("https://csimg.nyc3.digitaloceanspaces.com/Banners/chevron-right.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &.cs-active {
+                color: var(--primaryLight);
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            z-index: -1;
+
+            &:before {
+                /* black overlay box */
+                content: "";
+                width: 100%;
+                height: 100%;
+                background: #000;
+                opacity: 0.72;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+                                
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
@@ -88,7 +181,7 @@
             width: 100%;
             /* changes to 1280px at tablet */
             max-width: (550/16rem);
-            margin: auto;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -103,7 +196,8 @@
             display: flex;
             flex-direction: column;
             /* centers content horizontally, set to flex-start to left align */
-            align-items: flex-start;
+            align-items: center;
+            margin: 0 auto;
         }
 
         .cs-flex-group {
