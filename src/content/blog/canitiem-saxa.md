@@ -1,13 +1,13 @@
 ---
-title: Canitiem Saxa
+title: Test Blog 2
 description: Lorem markdownum trabeati dicere deus.
 author: Code Stitch
 date: 2023-06-08T15:28:08.486Z
-tags:
-    - post
-    - featured
 image: /src/assets/images/blog/blog-cover.jpg
 imageAlt: Kitchen
+tags:
+  - post
+  - featured
 ---
 
 ## Aut inter Petraeum
