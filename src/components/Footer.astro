@@ -41,32 +41,16 @@ const currentYear = getCurrentYear()
           <li>
             <h2>Services</h2>
           </li>
-          <li>Service1</li>
-          <li>Service2</li>
-          <li>Service4</li>
-          <li>Service5</li>
+          <li>Music Marketing</li>
+          <li>Web Development</li>
+          <li>Graphic Design</li>
         </ul>
         <ul>
           <li>
             <h2>Contact</h2>
           </li>
           <li>
-            <a href="/contact">
-              {client.address.lineOne}<br />
-              {client.address.lineTwo}<br />
-              {client.address.city}
-              {client.address.state}
-              {client.address.zip}
-            </a>
-          </li>
-          <li>
-            <a href={`tel:${client.phoneForTel}`}>
-              T:
-              {client.phoneFormatted}
-            </a>
-          </li>
-          <li>
-            <a href={`mailto:${client.email}`}>Click to Email</a>
+            <a href={`mailto:${client.email}`}>info@beyondthegravemag.com</a>
           </li>
         </ul>
       </div>
@@ -74,8 +58,8 @@ const currentYear = getCurrentYear()
   </div>
 
   <div class="credit">
-    <span>Designed and Hand Coded by</span>
-    <a href="/" target="_blank" rel="noopener">Your Company Name</a>
+    <span>Developed by</span>
+    <a href="/" target="_blank" rel="noopener">J.A Web Design</a> | 
     <span class="copyright"> Copyright {currentYear} - Present</span>
   </div>
 </footer>
@@ -215,7 +199,7 @@ const currentYear = getCurrentYear()
       a {
         font-size: (16/16rem);
         text-decoration: none;
-        color: var(--primary);
+        color: var(--button);
 
         &:hover {
           text-decoration: underline;
