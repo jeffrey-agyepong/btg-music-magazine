@@ -1,7 +1,6 @@
 ---
-title: Acuti modo
-description: Lorem Acuti modo tardantis unam mitissima dissimulator
-  inposuit   corpus sintque tura tremenda, nec coetum.
+title: Test Blog
+description: tremenda, nec coetum.
 author: Jeffrey A
 date: 2023-06-08T15:26:46.705Z
 image: /src/assets/images/blog/blog-cover.jpg
