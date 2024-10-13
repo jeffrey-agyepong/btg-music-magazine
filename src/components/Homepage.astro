@@ -31,7 +31,7 @@ posts.sort(
             {
               posts.length >= 1 && posts.map((post, index) => (
                 <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
-                  <a href={post.slug} class="cs-link">
+                  <a href={`/reviews/${post.slug}`} class="cs-link">
                     <picture class="cs-picture">
                       {/* Mobile Image */}
                       <source media="(max-width: 600px)" srcSet={post.data.image} />
