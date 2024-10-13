@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import { formatDate } from "@libs/utils.js";
 import "@styles/blog.less";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("reviews");
 const featuredPosts = posts.filter((post) =>
   post.data.tags.includes("featured")
 );
@@ -17,7 +17,7 @@ const featuredPosts = posts.filter((post) =>
     <span class="blog-header">Featured Posts</span>
     {
       featuredPosts.map((post) => (
-        <a class="blog-feature" href={`/blog/${post.slug}`}>
+        <a class="blog-feature" href={`/reviews/${post.slug}`}>
           <picture class="blog-featureImage">
             <Image
               src={post.data.image}
