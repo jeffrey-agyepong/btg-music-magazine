@@ -38,14 +38,14 @@ posts.sort(
       <!-- ============================================ -->
       <!--                 Blog Articles                -->
       <!-- ============================================ -->
-       <div class="flex flex-row flex-wrap gap-8">
+       <div class="flex flex-row flex-wrap gap-8 m-4">
 
       
       {posts.length === 0 && <h1>No Recent Posts</h1>}
       {
         posts.length >= 1 &&
           posts.map((post) => (
-           <div class="max-w-md">
+           <div class="sm:max-w-xs lg:max-w-md m-4 mx-auto">
              <article class="recent-articles flex-1">
               <picture class="blog-mainImage">
                 <Image
@@ -54,6 +54,7 @@ posts.sort(
                   width="795"
                   height="400"
                   decoding="async"
+                  style={{ objectFit: 'cover', width: '500px', height: '400px' }}
                 />
               </picture>
 
