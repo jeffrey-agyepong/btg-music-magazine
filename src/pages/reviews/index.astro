@@ -9,7 +9,7 @@ import Landing from "@components/Landing.astro";
 import FeaturedPost from "@components/FeaturedPost.astro";
 import "@styles/blog.less";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("reviews");
 posts.sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );
