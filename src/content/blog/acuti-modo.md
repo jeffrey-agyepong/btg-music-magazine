@@ -7,7 +7,7 @@ date: 2023-06-08T15:26:46.705Z
 image: /src/assets/images/blog/blog-cover.jpg
 imageAlt: Kitchen
 tags:
-  - post
+  - review
 ---
 
 ## Lacerans aliter tetigit praeterea rite
