@@ -1,5 +1,5 @@
 ---
-title: "Review: Jernlov – Crucified"
+title: "Review: Jernlov – Crucified (Album)"
 description: " Jernlov – Crucified"
 author: Ton
 date: 2021-11-21T11:20:00.000Z
