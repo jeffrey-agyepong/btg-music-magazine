@@ -71,7 +71,7 @@ const {description, title} = Astro.props;
                 </script>
             }
         </head>
-        <body>
+        <body class="dark-mode">
             <!--Screen reader skip main nav-->
             <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
     
@@ -91,10 +91,10 @@ const {description, title} = Astro.props;
       localStorage.setItem("theme", "dark");
     }
   
-    function disableDarkMode() {
-      document.body.classList.remove("dark-mode");
-      localStorage.setItem("theme", "light");
-    }
+    // function disableDarkMode() {
+    //   document.body.classList.remove("dark-mode");
+    //   localStorage.setItem("theme", "light");
+    // }
   
     function setTheme() {
       // default to the light theme
