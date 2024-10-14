@@ -1,6 +1,6 @@
 ---
 title: "Review: Jernlov – Crucified (Album)"
-description: " Jernlov – Crucified"
+description: Black Metal
 author: Ton
 date: 2021-11-21T11:20:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/jernlov-1.webp
