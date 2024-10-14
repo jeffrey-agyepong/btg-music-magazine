@@ -3,7 +3,7 @@ title: "Review: Phinehas - The Fire Itself "
 description: Metalcore
 author: Erik Morgan
 date: 2021-09-08T01:20:00.000Z
-image: src/assets/images/phinehas-the-fire-itself.webp
+image: https://ik.imagekit.io/boxhuwbys/phinehas-the-fire-itself.webp
 imageAlt: "Phinehas - The Fire Itself "
 tags:
   - post
