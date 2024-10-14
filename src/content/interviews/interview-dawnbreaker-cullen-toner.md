@@ -1,5 +1,5 @@
 ---
-title: "Interview: Dawnbreaker (Cullen Toner)"
+title: "Interview: Dawnbreaker"
 description: Black Metal
 author: Jeffrey
 date: 2020-12-18T23:00:00.000Z
