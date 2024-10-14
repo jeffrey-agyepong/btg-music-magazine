@@ -7,7 +7,6 @@ image: https://ik.imagekit.io/boxhuwbys/intercessor_band.webp
 imageAlt: Intercessor
 tags:
   - interviews
-  - featured
 ---
 **Intercessor** is a four-piece technical metalcore band from the Twin Cities, Minnesota. They recently released their debut EP Sola, and I had the pleasure of chatting with the band about their history, the making of Sola, their faith, and what's to come.
 
