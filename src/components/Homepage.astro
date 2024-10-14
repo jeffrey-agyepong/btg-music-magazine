@@ -21,6 +21,7 @@ interviews.sort(
 
 <Hero/>                                
 <section id="blog-1289">
+    <div class="max-w-screen-xl">
     <h2 class="text-left text-4xl mb-4">
     Reviews    
     </h2>   
@@ -58,49 +59,51 @@ interviews.sort(
               ))
             }
           </ul>
-          
+          </div>
     </div>
 </section>
 <section id="blog-1289">
+ <div class="max-w-screen-xl">
     <h2 class="text-left text-4xl mb-4">
-    Interviews    
-    </h2>   
-    <div class="cs-container">  
-        <ul class="cs-card-group">
-            {interviews.length === 0 && <h1>No Recent Posts</h1>}
-            {
-              interviews.length >= 1 && interviews.map((post, index) => (
-                <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
-                  <a href={`/reviews/${post.slug}`} class="cs-link">
-                    <picture class="cs-picture">
-                      {/* Mobile Image */}
-                      <source media="(max-width: 600px)" srcSet={post.data.image} />
-                      {/* Tablet and above Image */}
-                      <source media="(min-width: 601px)" srcSet={post.data.image} />
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        src={post.data.image}
-                        alt={post.data.imageAlt}
-                        width="270"
-                        height="200"
-                        class="rounded"
-                      />
-                    </picture>
-                    <div class="cs-flex">
-                      <span class="cs-date">{formatDate(post.data.date)}</span>
-                      <h3 class="cs-h3">{post.data.title}</h3>
-                      <p class="cs-item-text">
-                        {post.data.description}
-                      </p>
-                    </div>
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
-          
-    </div>
+        Interviews    
+        </h2>   
+        <div class="cs-container">  
+            <ul class="cs-card-group">
+                {interviews.length === 0 && <h1>No Recent Posts</h1>}
+                {
+                  interviews.length >= 1 && interviews.map((post, index) => (
+                    <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
+                      <a href={`/reviews/${post.slug}`} class="cs-link">
+                        <picture class="cs-picture">
+                          {/* Mobile Image */}
+                          <source media="(max-width: 600px)" srcSet={post.data.image} />
+                          {/* Tablet and above Image */}
+                          <source media="(min-width: 601px)" srcSet={post.data.image} />
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            src={post.data.image}
+                            alt={post.data.imageAlt}
+                            width="270"
+                            height="200"
+                            class="rounded"
+                          />
+                        </picture>
+                        <div class="cs-flex">
+                          <span class="cs-date">{formatDate(post.data.date)}</span>
+                          <h3 class="cs-h3">{post.data.title}</h3>
+                          <p class="cs-item-text">
+                            {post.data.description}
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+              
+        </div>
+ </div>
 </section>
 <style>
 
@@ -267,7 +270,9 @@ interviews.sort(
 @media only screen and (min-width: 48rem) {
     #blog-1289 {
         .cs-container {
-            max-width: (1280/16rem);
+            /* max-width: (1280/16rem); */
+            max-width: 1280px;
+            margin: 0 auto;
         }
 
         .cs-content {
@@ -323,7 +328,7 @@ interviews.sort(
 
 @media only screen and (min-width: 80rem) {
     .cs-link{
-                min-width: 485px !important;
+                min-width: 400px !important;
             }   
     }                       
 </style>                                
