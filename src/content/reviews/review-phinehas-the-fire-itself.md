@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/boxhuwbys/phinehas-the-fire-itself.webp
 imageAlt: "Phinehas - The Fire Itself "
 tags:
   - featured
-  - interviews
+  - reviews
 ---
 Genre: Metalcore
 
