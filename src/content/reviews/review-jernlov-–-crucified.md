@@ -7,6 +7,7 @@ image: https://ik.imagekit.io/boxhuwbys/jernlov-1.webp
 imageAlt: " Jernlov – Crucified"
 tags:
   - reviews
+  - featured
 ---
 Album: Crucified
 
