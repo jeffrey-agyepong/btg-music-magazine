@@ -7,7 +7,6 @@ image: https://ik.imagekit.io/boxhuwbys/cullen-toner-dawnbreaker-1.webp
 imageAlt: Dawnbreaker - Cullen Toner
 tags:
   - interviews
-  - featured
 ---
 Cullen Toner, the sole member of the black metal project, Dawnbreaker returns to discuss his new album Vanquished Horrible Night. Enjoy!
 
