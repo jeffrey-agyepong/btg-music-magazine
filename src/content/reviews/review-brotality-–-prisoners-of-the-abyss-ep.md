@@ -1,5 +1,5 @@
 ---
-title: "Review: Brotality – Prisoners of the Abyss [EP]"
+title: "Review: Brotality – Prisoners of the Abyss"
 description: Thrash Metal
 author: Nick
 date: 2020-12-19T12:29:00.000Z
