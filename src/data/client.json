@@ -1,15 +1,15 @@
 {
 	"name": "Beyond The Grave Metal Magazine",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"email": "admin@beyondthegravemag.com",
+	"phoneForTel": "",
+	"phoneFormatted": "",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
+		"lineOne": "",
+		"lineTwo": "",
 		"city": "",
 		"state": "",
 		"zip": "",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"mapLink": ""
 	},
-	"domain": "www.codestitch.app"
+	"domain": "www.beyondthegravemag.com"
 }
