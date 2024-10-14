@@ -7,6 +7,7 @@ image: https://ik.imagekit.io/boxhuwbys/ever-eden-illumine.webp
 imageAlt: Ever Eden – Illumine [EP]
 tags:
   - reviews
+  - featured
 ---
 **Genre:** Metalcore
 
