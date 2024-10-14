@@ -7,7 +7,6 @@ image: https://ik.imagekit.io/boxhuwbys/isolation.webp?updatedAt=1728787841477
 imageAlt: Searching Serenity – Isolation [EP]
 tags:
   - reviews
-  - featured
 ---
 **Band:** Searching Serenity
 
