@@ -9,6 +9,10 @@ const posts = await getCollection("reviews");
 posts.sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );
+const interviews = await getCollection("interviews");
+interviews.sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
 ---
 
 <!-- ============================================ -->
@@ -25,6 +29,47 @@ posts.sort(
             {posts.length === 0 && <h1>No Recent Posts</h1>}
             {
               posts.length >= 1 && posts.map((post, index) => (
+                <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
+                  <a href={`/reviews/${post.slug}`} class="cs-link">
+                    <picture class="cs-picture">
+                      {/* Mobile Image */}
+                      <source media="(max-width: 600px)" srcSet={post.data.image} />
+                      {/* Tablet and above Image */}
+                      <source media="(min-width: 601px)" srcSet={post.data.image} />
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        src={post.data.image}
+                        alt={post.data.imageAlt}
+                        width="270"
+                        height="200"
+                        class="rounded"
+                      />
+                    </picture>
+                    <div class="cs-flex">
+                      <span class="cs-date">{formatDate(post.data.date)}</span>
+                      <h3 class="cs-h3">{post.data.title}</h3>
+                      <p class="cs-item-text">
+                        {post.data.description}
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          
+    </div>
+</section>
+<section id="blog-1289">
+    <h2 class="text-left text-4xl mb-4">
+    Interviews    
+    </h2>   
+    <div class="cs-container">  
+        <ul class="cs-card-group">
+            {interviews.length === 0 && <h1>No Recent Posts</h1>}
+            {
+              interviews.length >= 1 && interviews.map((post, index) => (
                 <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
                   <a href={`/reviews/${post.slug}`} class="cs-link">
                     <picture class="cs-picture">
@@ -95,6 +140,9 @@ posts.sort(
             flex: none;
         }
 
+        .cs-link{
+                min-width: 385px;
+            }   
         .cs-color {
             color: var(--primary);
         }
@@ -240,6 +288,10 @@ posts.sort(
         .cs-item {
             grid-column: span 4;
         }
+        .cs-link{
+                min-width: 285px;
+            }   
+            
 
         .cs-highlight {
             grid-column: span 12;
@@ -269,5 +321,9 @@ posts.sort(
     }
 }
 
-                                    
+@media only screen and (min-width: 80rem) {
+    .cs-link{
+                min-width: 485px !important;
+            }   
+    }                       
 </style>                                
