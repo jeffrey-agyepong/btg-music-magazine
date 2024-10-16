@@ -3,7 +3,7 @@ title: "Interview: Intercessor "
 description: Progressive Metalcore
 author: Jeffrey A.
 date: 2021-07-19T23:33:00.000Z
-image: https://ik.imagekit.io/boxhuwbys/intercessor_band.webp
+image: https://ik.imagekit.io/boxhuwbys/intercessor_band-1.webp
 imageAlt: Intercessor
 tags:
   - interviews
