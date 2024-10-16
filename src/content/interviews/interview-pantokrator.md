@@ -3,7 +3,7 @@ title: "Interview: Pantokrator"
 description: Melodic Death Metal
 author: Jeffrey A.
 date: 2021-03-12T12:00:00.000Z
-image: https://ik.imagekit.io/boxhuwbys/pantokrator-1.webp?updatedAt=1728899957763
+image: https://ik.imagekit.io/boxhuwbys/pantokrator-1-1.webp
 imageAlt: Pantokrator
 tags:
   - interviews
