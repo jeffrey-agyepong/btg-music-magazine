@@ -3,7 +3,7 @@ title: "Interview: Ascendant"
 description: Blackened Death Metal
 author: Jeffrey A.
 date: 2021-04-05T12:57:00.000Z
-image: https://ik.imagekit.io/boxhuwbys/ascendant_band.webp?updatedAt=1729051785278
+image: https://ik.imagekit.io/boxhuwbys/ascendant_band.webp?updatedAt=1729052254063
 imageAlt: Ascendant
 tags:
   - interviews
