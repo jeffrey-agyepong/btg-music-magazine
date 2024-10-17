@@ -1,45 +1,62 @@
 ---
 import BaseLayout from "src/layouts/BaseLayout.astro";
-import client from "@data/client.json";
+// import client from "@data/client.json";
 import Landing from "@components/Landing.astro";
-
 ---
 
-<BaseLayout
-  title="Compilation"  description="Meta description for the page"
->
-  <!-- ============================================ -->
-  <!--                    LANDING                   -->
-  <!-- ============================================ -->
-
-  <Landing 
-    title="Compilation Albums"
-  />
-
-  <!-- ============================================ -->
-  <!--                Contact Form                  -->
-  <!-- ============================================ -->
+<BaseLayout title="Compilation" description="Meta description for the page">
+  <Landing title="Compilation Albums" />
 
   <section id="cs-contact">
     <div class="container">
-    <div class="sm:flex justify-center gap-16">
-      <div class="flex my-8 sm:my-0">
-        <div>
-          <h2 class="text-center text-3xl py-2">
-            All Things Christian Deathcore Vol. 1
-          </h2>
-          <img src="https://ik.imagekit.io/boxhuwbys/beyondthegrave-all-things-christian-deathcore-vol-1.webp" alt="" height="500" width="500" class="cover rounded-lg">
+      <div class="sm:flex justify-center gap-16">
+        <div class="flex my-8 sm:my-0">
+          <div>
+            <h2 class="text-center text-3xl py-2">
+              All Things Christian Deathcore Vol. 1
+            </h2>
+            <img
+              src="https://ik.imagekit.io/boxhuwbys/beyondthegrave-all-things-christian-deathcore-vol-1.webp"
+              alt=""
+              height="500"
+              width="500"
+              class="cover rounded-lg"
+            />
+            <div class="my-4">
+              <iframe
+                style="border: 0; width: 500px; height: 472px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=3536486789/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                ><a
+                href="https://beyond-the-grave.bandcamp.com/album/all-things-christian-deathcore-volume-1">All
+                Things Christian Deathcore: Volume 1 by Various Artists</a></iframe
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <h2 class="text-center text-3xl py-2">
+              All Things Christian Extreme Metal Vol. 2
+            </h2>
+            <img
+              src="https://ik.imagekit.io/boxhuwbys/beyondthegrave-all-things-christian-extreme-metal-vol-2.webp"
+              alt=""
+              height="500"
+              width="500"
+              class="cover rounded-lg"
+            />
+            <div class="my-4">
+              <iframe
+                style="border: 0; width: 500px; height: 472px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=3536486789/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/"
+                ><a
+                href="https://beyond-the-grave.bandcamp.com/album/all-things-christian-deathcore-volume-1">All
+                Things Christian Deathcore: Volume 1 by Various Artists</a></iframe
+              >
+            </div>
+          </div>
         </div>
       </div>
-      <div class="flex">
-        <div>
-          <h2 class="text-center text-3xl py-2">
-          All Things Christian Extreme Metal Vol. 2
-          </h2>
-          <img src="https://ik.imagekit.io/boxhuwbys/beyondthegrave-all-things-christian-extreme-metal-vol-2.webp" alt="" height="500" width="500" class="cover rounded-lg">
-        </div>
-      </div>
-    </div>
     </div>
   </section>
 </BaseLayout>
@@ -127,8 +144,7 @@ import Landing from "@components/Landing.astro";
           margin-bottom: 0;
         }
       }
-      }
-    
+    }
   }
 
   /* Tablet - 700px */
@@ -216,9 +232,7 @@ import Landing from "@components/Landing.astro";
         .cs-topper {
           color: var(--primaryLight);
         }
-
-
-        }
       }
+    }
   }
 </style>
