@@ -5,8 +5,8 @@
     "children": []
   },
   {
-    "key": "Reviews",
-    "url": "/reviews/",
+    "key": "Music Reviews",
+    "url": "/music-reviews/",
     "children": []     
   },
   {
@@ -15,8 +15,8 @@
     "children": []
   },
   {
-    "key": "About Us",
-    "url": "/about/",
+    "key": "Samplers",
+    "url": "/samplers/",
     "children": []
   },
   {
