@@ -3,7 +3,7 @@ title: Haste The Day rejoin Solid State Records and release new single, "Burn"
 description: Metalcore
 author: Jeffrey A.
 date: 2024-10-17T20:49:00.000Z
-image: https://ik.imagekit.io/boxhuwbys/haste-the-day.webp
+image: https://ik.imagekit.io/boxhuwbys/haste-the-day-1.webp
 imageAlt: Haste The Day
 tags:
   - news
