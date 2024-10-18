@@ -5,6 +5,10 @@ import { Image } from "astro:assets";
 import { formatDate } from "@libs/utils.js";
 import Button from "./ui/button.astro";
 import Hero from "./hero/hero.astro";
+const news = await getCollection("news");
+news.sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
 const posts = await getCollection("reviews");
 posts.sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
@@ -19,19 +23,19 @@ interviews.sort(
 <!--                    Blog                      -->
 <!-- ============================================ -->
 
-<Hero/>                                
+<Hero/>
 <section id="blog-1289">
     <div class="max-w-screen-xl mx-auto">
     <h2 class="text-left text-4xl mb-4">
-    Reviews    
+   News    
     </h2>   
     <div class="cs-container">  
         <ul class="cs-card-group">
-            {posts.length === 0 && <h1>No Recent Posts</h1>}
+            {news.length === 0 && <h1>No Recent Posts</h1>}
             {
-              posts.length >= 1 && posts.map((post, index) => (
+              news.length >= 1 && news.map((post, index) => (
                 <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
-                  <a href={`/reviews/${post.slug}`} class="cs-link">
+                  <a href={`/news/${post.slug}`} class="cs-link">
                     <picture class="cs-picture">
                       {/* Mobile Image */}
                       <source media="(max-width: 600px)" srcSet={post.data.image} />
@@ -50,9 +54,45 @@ interviews.sort(
                     <div class="cs-flex">
                       <span class="cs-date">{formatDate(post.data.date)}</span>
                       <h3 class="cs-h3">{post.data.title}</h3>
-                      <p class="cs-item-text">
-                        {post.data.description}
-                      </p>
+                    </div>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          </div>
+    </div>
+</section>                                
+<section id="blog-1289">
+    <div class="max-w-screen-xl mx-auto">
+    <h2 class="text-left text-4xl mb-4">
+    Reviews    
+    </h2>   
+    <div class="cs-container">  
+        <ul class="cs-card-group">
+            {posts.length === 0 && <h1>No Recent Posts</h1>}
+            {
+              posts.length >= 1 && posts.map((post, index) => (
+                <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
+                  <a href={`/music-reviews/${post.slug}`} class="cs-link">
+                    <picture class="cs-picture">
+                      {/* Mobile Image */}
+                      <source media="(max-width: 600px)" srcSet={post.data.image} />
+                      {/* Tablet and above Image */}
+                      <source media="(min-width: 601px)" srcSet={post.data.image} />
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        src={post.data.image}
+                        alt={post.data.imageAlt}
+                        width="270"
+                        height="200"
+                        class="rounded"
+                      />
+                    </picture>
+                    <div class="cs-flex">
+                      <span class="cs-date">{formatDate(post.data.date)}</span>
+                      <h3 class="cs-h3">{post.data.title}</h3>
                     </div>
                   </a>
                 </li>
@@ -73,7 +113,7 @@ interviews.sort(
                 {
                   interviews.length >= 1 && interviews.map((post, index) => (
                     <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
-                      <a href={`/reviews/${post.slug}`} class="cs-link">
+                      <a href={`/interviews/${post.slug}`} class="cs-link">
                         <picture class="cs-picture">
                           {/* Mobile Image */}
                           <source media="(max-width: 600px)" srcSet={post.data.image} />
@@ -92,9 +132,6 @@ interviews.sort(
                         <div class="cs-flex">
                           <span class="cs-date">{formatDate(post.data.date)}</span>
                           <h3 class="cs-h3">{post.data.title}</h3>
-                          <p class="cs-item-text">
-                            {post.data.description}
-                          </p>
                         </div>
                       </a>
                     </li>
