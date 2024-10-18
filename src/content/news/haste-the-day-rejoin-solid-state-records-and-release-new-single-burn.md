@@ -13,4 +13,4 @@ A decade after their last album *Coward*, Christian metalcore veterans, **Haste 
 
 
 
-<iframe width="760" height="415" src="https://www.youtube.com/embed/KHSJVd9X6Wg?si=VeD2FOOEk5AThQnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube.com/embed/KHSJVd9X6Wg?si=VeD2FOOEk5AThQnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
