@@ -5,6 +5,11 @@
     "children": []
   },
   {
+    "key": "News",
+    "url": "/news/",
+    "children": []     
+  },
+  {
     "key": "Music Reviews",
     "url": "/music-reviews/",
     "children": []     
