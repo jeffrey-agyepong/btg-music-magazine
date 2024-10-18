@@ -85,8 +85,6 @@ Karl - After the latest 7-year interruptions that every interview torments us wi
 
 Karl - Stand and be True. Long days and pleasant nights.
 
-
-
-Read our review [here](https://beyondthegravemag.netlify.app/reviews/review-pantokrator-marching-out-of-babylon/)
+Read our review [here](https://beyondthegravemag.netlify.app/music-reviews/review-pantokrator-marching-out-of-babylon/)
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2394117014/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://officialpantokrator.bandcamp.com/album/marching-out-of-babylon-3">MARCHING OUT OF BABYLON by PANTOKRATOR</a></iframe>
