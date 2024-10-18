@@ -58,9 +58,9 @@ posts.sort(
                 />
               </picture>
 
-              <div class="article-group">
+              <div class="article-group interview">
                 <div class="blog-authorGroup">
-                  <picture class="blog-author-img">
+                  {/* <picture class="blog-author-img">
                     <img
                       src="/assets/svgs/profile.svg"
                       alt="house"
@@ -68,15 +68,14 @@ posts.sort(
                       height="32"
                       decoding="async"
                     />
-                  </picture>
+                  </picture> */}
                   <span class="blog-author">{post.data.author}</span>
                   <span aria-hidden="true" class="blog-dot" />
                   <span class="blog-date">{formatDate(post.data.date)}</span>
                 </div>
                 <h2 class="blog-h1">{post.data.title}</h2>
-                <p class="blog-desc">{post.data.description}</p>
                 <a href={post.slug} class="blog-link">
-                  Continue Reading
+                  Read Interview
                 </a>
               </div>
             </article>
