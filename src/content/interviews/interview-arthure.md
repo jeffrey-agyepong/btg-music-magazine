@@ -1,6 +1,9 @@
 ---
 title: "Interview: Arthure"
-description: Extreme Metal
+description: We had the opportunity to chat with progressive extreme metal
+  solo-artist, Nathan Arthur, formerly known as Arthure. We discussed his
+  project's history, his love for Extol, the name change, and his faith, among
+  other things. Enjoy!
 author: Jeffrey A.
 date: 2021-01-13T19:09:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/nathan_arthur-1.webp
@@ -8,7 +11,7 @@ imageAlt: Nathan Arthur
 tags:
   - post
 ---
-I had the opportunity to chat with progressive extreme metal solo-artist, **Nathan Arthur**, formerly known as **Arthure**. We discussed his project's history, his love for Extol, the name change, and his faith, among other things. Enjoy!
+We had the opportunity to chat with progressive extreme metal solo-artist, **Nathan Arthur**, formerly known as **Arthure**. We discussed his project's history, his love for Extol, the name change, and his faith, among other things. Enjoy!
 
 **Introduce yourself for those who might not be familiar with you.**
 

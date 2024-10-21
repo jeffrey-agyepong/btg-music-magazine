@@ -1,6 +1,11 @@
 ---
 title: "Interview: Crowned In Sorrow "
-description: Progressive Doom Metal
+description: Crowned in Sorrow is the epic melodic doom metal solo project of
+  multi-instrumentalist and producer Derek Corzine, known for his time in bands
+  Syringe and Bloodline Severed  and by his other solo-projects Blood Thirsty
+  and Cosyns. Derek set aside some time from his hectic schedule to discuss his
+  new album "In Memoriam", upcoming projects, and how being a producer affects
+  his craft.
 author: Jeffrey A.
 date: 2021-03-21T21:52:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/derek-corzine.webp

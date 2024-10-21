@@ -1,6 +1,10 @@
 ---
 title: "Review: Phinehas - The Fire Itself "
-description: Metalcore
+description: "  Phinehas is a band that needs no introduction in the Christian
+  metal scene, but for those who don’t know, Phinehas consists of Sean McCulloch
+  (Lead Vocals), Daniel Gailey (Guitars), Bryce Kelley (Bass), and Isaiah Perez
+  (Drums). Phinehas originated in Los Angeles, California, and this is their
+  fifth full length release."
 author: Erik Morgan
 date: 2021-09-08T01:20:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/phinehas-the-fire-itself.webp

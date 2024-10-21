@@ -1,6 +1,9 @@
 ---
 title: "Interview: Ascendant"
-description: Blackened Death Metal
+description: "Ascendant is a Danish blackened death metal band. In 2012 they
+  released their debut album The Alteration, and two years later, a follow-up EP
+  Serenity. They have been inactive for the past few years, and I thought it
+  would be interesting to catch up with their vocalist Josua. "
 author: Jeffrey A.
 date: 2021-04-05T12:57:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/ascendant_band.webp?updatedAt=1729052254063

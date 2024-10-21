@@ -1,6 +1,10 @@
 ---
 title: "Interview: Sorrowstorm "
-description: Black Metal
+description: Formed in 2000, Sorrowstorm  is the black metal solo project of
+  multi-instrumentalist Felipe Diez. In 2010, he retired from music due to
+  various circumstances, but in early 2021, he announced the return of the
+  project and signed with Vision of God Records to release his latest EP, Epoch
+  of Exile.
 author: Jeffrey A.
 date: 2021-04-21T12:11:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/sorrowstorm.webp

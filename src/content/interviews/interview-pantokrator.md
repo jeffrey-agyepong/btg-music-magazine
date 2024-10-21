@@ -1,6 +1,10 @@
 ---
 title: "Interview: Pantokrator"
-description: Melodic Death Metal
+description: 'Swedish melodic death metal band, Pantokrator recently released
+  their fourth full-length album "Marching Out of Babylon" through Nordic
+  Mission. The band comprises of Karl Walfridsson(vocals), Mattias
+  Johansson(guitar), Johnathan Jansson(guitar), Jonas Wallinder(bass) and Ricke
+  Gustafsson(drums). '
 author: Jeffrey A.
 date: 2021-03-12T12:00:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/pantokrator-1-1.webp

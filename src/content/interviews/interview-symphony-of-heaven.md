@@ -1,6 +1,8 @@
 ---
 title: "Interview: Symphony of Heaven "
-description: Blackened Death Metal
+description: Symphony of Heaven is a Blackened Death Metal band from Indiana. I
+  had the opportunity to talk with the band about their history, recent EP, the
+  faith that drives their music and the upcoming full-length album.
 author: Jeffrey A.
 date: 2021-02-12T20:26:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/symphony_of_heaven_btg_interview.webp

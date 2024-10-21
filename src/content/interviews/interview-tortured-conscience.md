@@ -1,6 +1,10 @@
 ---
 title: "Interview: Tortured Conscience "
-description: Death Metal
+description: Tortured Conscience is a Christian death metal band, who deal with
+  deeper theological issues as well as social issues. Jeff Lenormand took some
+  time out of his schedule, to discuss the history of the band, the story behind
+  remixing & remastering Every Knee Shall Bow, Reformed theology and the
+  upcoming release "Death to False Gods".
 author: Jeffrey A.
 date: 2021-02-17T11:08:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/Jeff_tortured-conscience.webp
