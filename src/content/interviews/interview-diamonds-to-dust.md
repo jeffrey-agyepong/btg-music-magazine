@@ -1,6 +1,6 @@
 ---
 title: "Interview: Diamonds to Dust"
-description: Deathcore
+description: Diamonds to Dust are a 4 piece deathcore band from Poughkeepsie, New York.
 author: Jeffrey A.
 date: 2020-07-20T22:19:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/diamonds-to-dust-beyond-the-grave.webp
