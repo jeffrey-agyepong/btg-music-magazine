@@ -1,6 +1,7 @@
 ---
 title: "Interview: Dawnbreaker"
-description: Black Metal
+description: Cullen Toner, the sole member of the black metal project,
+  Dawnbreaker returns to discuss his new album Vanquished Horrible Night. Enjoy!
 author: Jeffrey
 date: 2020-12-18T23:00:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/cullen-toner-dawnbreaker-1.webp
