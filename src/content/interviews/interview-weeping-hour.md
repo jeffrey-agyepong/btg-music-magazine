@@ -1,6 +1,8 @@
 ---
 title: "Interview: Weeping Hour"
-description: Progressive metalcore
+description: Weeping Hour is a 5 piece progressive metalcore band from Monroe,
+  Louisana. They recently released the deluxe edition of their 2019 debut album
+  “In Hunger and Thirst“. Let’s have a chat with their frontman.
 author: Jeffrey A.
 date: 2020-07-27T01:48:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/weeping-hour.webp
