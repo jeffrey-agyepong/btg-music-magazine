@@ -27,11 +27,11 @@ import Landing from "@components/Landing.astro";
         <div class="cs-content">
           <span class="cs-topper">Contact</span>
           <h2 class="cs-title">Get in Touch</h2>
-          <!-- <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus
-            elementum ullamcorper ipsum porttitor aliquam. Id magna urna
-            ultrices odio pulvinar. Sed ut.
-          </p> -->
+          <p class="cs-text">
+            For all enquires send us an email at:
+            <a class="cs-link" href={`mailto:${client.email}`}>{client.email}</a>
+          </a>
+          </p>
         </div>
         <label>
           Name
@@ -83,27 +83,34 @@ import Landing from "@components/Landing.astro";
         <button class="cs-button-solid" type="submit">Submit Message</button>
       </form>
       <div class="cs-right-section">
-        <!--Email-->
-        <span class="cs-header">Email</span>
-        <a class="cs-link" href={`mailto:${client.email}`}>{client.email}</a>
-        </a>
-
-        <!-- Background Image-->
-        <picture class="cs-bg-picture">
-          <source
-            media="(min-width: 601px)"
-            srcset="https://ik.imagekit.io/boxhuwbys/beyondthegravemag-guitar-pic.webp?updatedAt=1729484205342"
-          />
-          <img
-            aria-hidden="true"
-            decoding="async"
-            src="https://ik.imagekit.io/boxhuwbys/beyondthegravemag-guitar-pic.webp?updatedAt=1729484205342"
-            alt="building"
-            loading="lazy"
-            width="1200"
-            height="1267"
-          />
-        </picture>
+        <!-- <h2 id="review-request">Request Review</h2>
+        <h5 class="font">Want us to review your album/ep?</h5>
+        <p class="font">Here are some details to consider:</p>
+        <p class="font">Email subject: "Review Request" – "Artist Name" – "Album/EP Name"</p>
+        <ul class="font">
+          <li>Introduction to artist/band</li>
+          <li>
+            Details about the album you'd like us to take into consideration
+            while reviewing it (include release date and also any song
+            stories/meanings/lyrics)
+          </li>
+          <li>Social media links</li>
+          <li>A high quality photo of the album cover</li>
+          <li>
+            And, most importantly, send us the album to download or a
+            bandcamp redeem code.
+          </li>
+        </ul>
+        <h6>Note:</h6>
+        <ul class="font">
+          <li>
+            We review mainly metal &amp; hardcore bands/artists.
+          </li>
+          <li>
+            Submissions do not guarantee reviews, but there is a higher
+            chance, if the guidelines are followed.
+          </li>
+        </ul> -->
       </div>
     </div>
   </section>
