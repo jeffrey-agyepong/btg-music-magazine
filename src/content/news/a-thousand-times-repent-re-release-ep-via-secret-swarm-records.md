@@ -11,12 +11,10 @@ tags:
   - news
   - featured
 ---
-Veteran Christian Deathcore band from Atlanta Georgia, **A Thousand Times Repent** have re-released their debut EP *Virtue Has Few Friends*" Secret Swarm Records, original released via Tribunal Records. As of 2023, the band is working on new material.
-
-
+Veteran Christian Deathcore band from Atlanta Georgia, **A Thousand Times Repent** have re-released their debut EP *Virtue Has Few Friends* Secret Swarm Records, original released via Tribunal Records. As of 2023, the band is working on new material.
 
 <iframe style="border: 0; width: 320px; height: 624px;" src="https://bandcamp.com/EmbeddedPlayer/album=4284159659/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://secretswarmrecords.bandcamp.com/album/virtue-has-few-friends">Virtue Has Few Friends by A Thousand Times Repent</a></iframe>
 
-
+<br>
 
 <a href="https://www.instagram.com/1000xrepent/" target="_blank">Instagram</a>
