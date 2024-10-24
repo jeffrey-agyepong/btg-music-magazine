@@ -5,7 +5,7 @@ description: "  Phinehas is a band that needs no introduction in the Christian
   (Lead Vocals), Daniel Gailey (Guitars), Bryce Kelley (Bass), and Isaiah Perez
   (Drums). Phinehas originated in Los Angeles, California, and this is their
   fifth full length release."
-author: Erik Morgan
+author: Erik M.
 date: 2021-09-08T01:20:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/phinehas-the-fire-itself.webp
 imageAlt: "Phinehas - The Fire Itself "

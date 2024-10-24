@@ -4,7 +4,7 @@ description: Serving straight-up deathcore from Jacksonville, Florida, Searching
   Serenity brings audio devastation (in a good way) to your ears, and peace
   through their heartfelt lyrics to your soul! Their Isolation EP was released
   independently on March 19th, 2020.
-author: Jeffrey A
+author: Jeffrey A.
 date: 2020-07-13T09:26:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/isolation.webp?updatedAt=1728787841477
 imageAlt: Searching Serenity – Isolation [EP]

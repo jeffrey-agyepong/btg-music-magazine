@@ -1,7 +1,7 @@
 ---
 title: "Review: Pantokrator - Marching Out of Babylon"
 description: Melodic Death Metal
-author: Jeremy Prince
+author: Jeremy P.
 date: 2021-02-03T12:08:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/p-m-o-o-b-1.webp
 imageAlt: Pantokrator - Marching Out of Babylon
