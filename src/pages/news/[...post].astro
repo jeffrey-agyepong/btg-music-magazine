@@ -5,6 +5,7 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
 import { formatDate } from "@libs/utils.js";
 import Landing from "@components/Landing.astro";
 import FeaturedPost from "@components/FeaturedPost3.astro";
+import { SocialShare } from "astro-social-share";
 import "@styles/blog.less";
 
 export async function getStaticPaths() {
@@ -74,11 +75,20 @@ const { Content } = await post.render();
         </div>
         <section id="blog-content">
           <Content />
+          <div class="py-4 bg-slate-800 rounded-lg px-4 max-w-96">
+            <p class="text-xl">
+              Share this article with your friends and family
+            </p>
+            <SocialShare
+            description={description}
+            title={title}
+          />
+          </div>
         </section>
       </article>
     </div>
     <div class="p-4">
-    <FeaturedPost />
+      <FeaturedPost />
     </div>
   </div>
 </BaseLayout>
@@ -89,5 +99,5 @@ const { Content } = await post.render();
     height: auto; /* Set height to auto to maintain aspect ratio */
     aspect-ratio: 16 / 9; /* Maintain the 16:9 aspect ratio */
     max-width: 760px; /* Optional: Set a max width */
-}
+  }
 </style>
