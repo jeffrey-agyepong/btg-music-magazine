@@ -33,7 +33,7 @@ interviews.sort(
         <ul class="cs-card-group">
             {news.length === 0 && <h1>No Recent Posts</h1>}
             {
-              news.length >= 1 && news.map((post, index) => (
+              news.length >= 1 && news.slice(0,3).map((post, index) => (
                 <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
                   <a href={`/news/${post.slug}`} class="cs-link">
                     <picture class="cs-picture">
@@ -72,7 +72,7 @@ interviews.sort(
         <ul class="cs-card-group">
             {posts.length === 0 && <h1>No Recent Posts</h1>}
             {
-              posts.length >= 1 && posts.map((post, index) => (
+               posts.length >= 1 && posts.slice(0, 3).map((post, index) => (
                 <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
                   <a href={`/music-reviews/${post.slug}`} class="cs-link">
                     <picture class="cs-picture">
@@ -111,7 +111,7 @@ interviews.sort(
             <ul class="cs-card-group">
                 {interviews.length === 0 && <h1>No Recent Posts</h1>}
                 {
-                  interviews.length >= 1 && interviews.map((post, index) => (
+                  interviews.length >= 1 && interviews.slice(0,3).map((post, index) => (
                     <li key={index} class={`cs-item ${index === 0 ? 'cs-link' : ''}`}>
                       <a href={`/interviews/${post.slug}`} class="cs-link">
                         <picture class="cs-picture">
