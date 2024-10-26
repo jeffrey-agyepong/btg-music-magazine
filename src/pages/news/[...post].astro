@@ -76,13 +76,17 @@ const { Content } = await post.render();
         <section id="blog-content">
           <Content />
           <div class="py-4 my-8 bg-slate-800 rounded-lg px-4 max-w-96">
-            <p class="text-xl">
+          <div class="flex justify-center items-center gap-4">
+            <p class="text-xl p-0 m-0">
               Share article:
             </p>
+           <div class="mb-4">
             <SocialShare
             description={description}
             title={title}
           />
+           </div>
+          </div>
           </div>
         </section>
       </article>
