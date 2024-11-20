@@ -1,38 +1,30 @@
 [
   {
-    "key": "Home",
-    "url": "/",
-    "children": []
-  },
-  {
     "key": "News",
-    "url": "/news/",
-    "children": []     
+    "url": "/news/"   
   },
   {
     "key": "Music Reviews",
-    "url": "/music-reviews/",
-    "children": []     
+    "url": "/music-reviews/"    
   },
   {
     "key": "Interviews",
-    "url": "/interviews/",
-    "children": []
+    "url": "/interviews/"
   },
   {
     "key": "Samplers",
-    "url": "/samplers/",
-    "children": []
+    "url": "/samplers/"
   },
   {
     "key": "Band Archive",
     "url": "https://christianmetalarchives.com/"
   },
   {
+    "key": "Support",
+    "url": "/support/"
+  },
+  {
     "key": "Contact Us",
-    "url": "/contact/",
-    "children": []
+    "url": "/contact/"
   }
-
-
 ]
