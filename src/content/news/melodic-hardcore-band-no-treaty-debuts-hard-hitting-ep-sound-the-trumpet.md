@@ -1,5 +1,5 @@
 ---
-title: Melodic Hardcore Band No Treaty Debuts Hard-Hitting EP Sound The Trumpet
+title: No Treaty Debuts Hard-Hitting EP Sound The Trumpet
 description: Melodic Hardcore Band No Treaty Debuts Hard-Hitting EP Sound The Trumpet
 author: Jeffrey A.
 date: 2024-11-16T12:44:00.000Z
