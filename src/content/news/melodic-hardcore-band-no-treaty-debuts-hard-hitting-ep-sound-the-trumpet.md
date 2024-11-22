@@ -1,6 +1,8 @@
 ---
 title: No Treaty Debuts Hard-Hitting EP Sound The Trumpet
-description: Melodic Hardcore Band No Treaty Debuts Hard-Hitting EP Sound The Trumpet
+description: No Treaty has released their highly anticipated debut EP, Sound The
+  Trumpet. The band delivers powerful, thought-provoking lyrics that challenge
+  listeners to stand strong in the face of adversity.
 author: Jeffrey A.
 date: 2024-11-16T12:44:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/no-treaty-sound-the-trumpet.webp
