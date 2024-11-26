@@ -10,7 +10,6 @@ imageAlt: Grave Decay - From Dust to Dust
 tags:
   - reviews
 ---
-
 **Band**:  Grave Decay
 
 **Album:** From Dust to Dust
@@ -36,20 +35,15 @@ Track list:
 9. Time 04:46
 10. Once Bitten, Twice Shy 08:31
 
-*Grave Decay*
- is a Symphonic Death Metal band from the Netherlands currently 
+*Grave Decay* is a Symphonic Death Metal band from the Netherlands currently 
 consisting of Roger Koedoot and Maurice Lefeu. “From Dust to Dust” is 
 the bands’ debut album and was released in October of 2018.
 
-This 
-album really stands out right from the onset, with pulse-pounding drums 
+This album really stands out right from the onset, with pulse-pounding drums 
 and symphonic elements that really got me excited to listen to “From 
 Dust to Dust.”
 
-**Sound and Mixing**: Throughout this
- album, the mixing is extremely crisp. Guitars shine through, and these 
-are definitely the stars of the show next to the lyricism. Shredding 
-solos, chunky bridges, and even moments of beautiful strumming are 
+**Sound and Mixing**: Throughout this album, the mixing is extremely crisp. Guitars shine through, and these are definitely the stars of the show next to the lyricism. Shredding solos, chunky bridges, and even moments of beautiful strumming are 
 definitely the highlights of this album. The drums are fast and heavy 
 and keep the songs chugging along at a steady pace, which results in 
 music that will take any listener to a completely different place. The 
@@ -106,8 +100,6 @@ to calls to end the war and stop the hypocrisy, each song on this album
 is phenomenal.
 
 ### Rating: 9/10
-
-
 
 **Reason:**
  Each song is well-written and well-worded. The emotions and messages 
