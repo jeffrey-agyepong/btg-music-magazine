@@ -70,8 +70,4 @@ their future.
 
 ### Rating: 8/10
 
-
-
 **Favorite Track:** The Return
-
-\
