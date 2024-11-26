@@ -12,7 +12,6 @@ imageAlt: "Roots of Tragedy - Doctrines "
 tags:
   - reviews
 ---
-
 **Band:** [](https://web.archive.org/web/20210920222336/https://bands.beyondthegravemusic.com/roots-of-tragedy)[](https://web.archive.org/web/20210920222336/https://bands.beyondthegravemusic.com/roots-of-tragedy)Roots of Tragedy
 
 **Album:** Doctrines(Deluxe Edition)
@@ -81,11 +80,7 @@ Definitely support the artist! [Find this album on Bandcamp](https://web.archive
 
 **Reason:** It’s hard to place a number out of 10 for this one because of the mixture of where it fits.
 
-
-
 ## <div style="text-align:center;">ADDITIONAL THOUGHTS</div>
-
-
 
 After being in a few projects, David Sandvik purchased advanced equipment, intending to start a serious project called **Roots of Tragedy**. Song-writing and recording were the focus, and this is clear in his debut full-length Doctrines.[](https://web.archive.org/web/20210920222336/https://beyondthegrave777.wordpress.com/2020/06/18/introducing-roots-of-tragedy/)
 
@@ -109,9 +104,8 @@ Devils, so that they would come to repentance and true saving faith. **Dynamis**
 >  *From the first Adam to the Last Adam* 
 >  *We were all lost and sick* 
 >
->
 > *But the man (Messiah) who was God defeated the plague* 
->  *And made a way for us to be Victorious! - **Last Adam***
+>  *And made a way for us to be Victorious! - **Last Adam**
 
 **Doctrines** is a phenomenal debut album. It is a record I see myself constantly 
 coming back to for years to come. David has crafted a unique sound with **Roots of Tragedy**, and I am excited for the expected follow-up coming later in 2021.
@@ -119,7 +113,5 @@ coming back to for years to come. David has crafted a unique sound with **Roots 
 **Favorite Tracks:** Last Adam, Promise of Persecution, Dynamis and Identity
 
 ### Rating: 8.5/10
-
-
 
 #### Written by: Jeffrey A.
