@@ -4,7 +4,7 @@ description: Derek Corzine, of Corzine Studio, otherwise known for this work
   associated with Blood Thirsty, Cosyns, Whisper From Heaven, and Syringe, hits
   the mark with his recently released solo project In Memoriam under the band
   name Crowned in Sorrow.
-author: Hezekiah Rose
+author: Hezekiah R.
 date: 2021-02-19T23:26:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/crowned-in-sorrow-in-memoriam-1.webp
 imageAlt: Crowned In Sorrow - In Memoriam
