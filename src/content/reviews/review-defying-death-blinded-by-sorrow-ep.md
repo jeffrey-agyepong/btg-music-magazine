@@ -1,8 +1,9 @@
 ---
 title: "Review: Defying Death - Blinded By Sorrow[EP] "
-description: "Not Beneath is a Christian death metal/metalcore band from
-  Cleveland, Ohio, with a nostalgic, yet fresh sound that can be labeled as many
-  genres, but it does not quite fit perfectly in any genre description. "
+description: " Enter the  scene Defying Death with their recently released EP
+  Blinded by Sorrow.  The band in their bio claim they are “a fusion of various
+  kinds of  metal sub-genres that create a sound different from your
+  normal  metalcore band.” So let us have ourselves a listen and see."
 author: Jeremy P.
 date: 2021-03-21T16:41:00.000Z
 image: https://ik.imagekit.io/boxhuwbys/defying-death-blinded-by-sorrow.jpg
