@@ -132,4 +132,4 @@ will be adding these guys to my follow list.
 
 ### Rating: 8/10
 
-\    [ ](https://web.facebook.com/defyingdeathva)
+[](https://web.facebook.com/defyingdeathva)
