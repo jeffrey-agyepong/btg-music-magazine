@@ -9,7 +9,8 @@ imageAlt: Weeping Hour - Misael
 tags:
   - news
 ---
-Progressive metalcore band **Weeping Hour** have released their new single "Misael".
+
+Louisana- based progressive metalcore band **Weeping Hour** have released their new single "Misael". They song is based on a <a href="https://www.weepinghour.com/news/misael-singlerelease-278gx-ahfrk" target="_blank">true story</a> involving vocalist Ethan Prudhomme.
 
 
 
